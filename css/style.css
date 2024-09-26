@@ -1,0 +1,100 @@
+/*GENERAL STYLES */
+
+/* add your font import line here */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* add your font-family property to the body rule here. You will also add a background color and text color here. */
+body {
+    margin: 0 auto;
+    background-color: darkslategrey;
+    max-width: 1000px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* TAG SELECTOR STYLES */
+/* Style your header and footer together here. You can add a background color, another font-family, another text color, a border, etc */
+header, 
+footer {
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    margin: auto; 
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: "Playwrite CU", cursive;
+}
+
+
+/* Here you will style your <main> box holding all of your collection items. You can give it a background color. But most importantly, make the parent main selector a flebox, make it a row, make it wrap, and justify the content to space between*/
+main {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+/* This rule provides 10px of padding around all sides of each image on your page */
+img {
+    padding: 10px;
+}
+
+/* This rule styles the paragraphs that are describing each of your collection items. You can change the color, font-size, or font-family. */
+
+h4 {
+
+    font-size: 12pt;
+    padding: 10px;
+    color:antiquewhite;
+    font-weight: normal;
+}
+
+
+/* CLASSES & IDS */ 
+
+/* Give each <div> a unique id selector in the HTML document. Then, below, create a #id rule for each section. You can then give each a different background color, add text-align:center, add margin, border, etc. But most importantly, give each a width in percentages that equals about 1/3 of a row that is equal to 100%*/
+
+
+
+#claypigeons {
+    width: 30%;
+}
+
+#beetlebug {
+    width: 30%;
+}
+
+#sophietraux {
+    width: 30%;
+}
+
+#leannafirestone {
+    width: 30%;
+}
+
+#moviestarla {
+    width: 30%;
+}
+
+#nothingsadnstuffla {
+    width: 30%;
+}
+
+#ruth {
+    width: 30%;
+}
+
+#willwood {
+    width: 30%;
+}
+
+#parispaloma {
+    width: 30%;
+}
+
